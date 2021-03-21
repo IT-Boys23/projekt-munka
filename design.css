@@ -1,13 +1,14 @@
 body{
     background-color:darkslategray;
-    background: url("https://hdqwalls.com/download/stranger-things-season-3-2019-4k-5k-38-1920x1080.jpg") center / cover no-repeat;
+    background-image: radial-gradient(circle, #2ef963, #00f37f, #00ed96, #00e5a8, #00ddb5, #00d2cb, #00c5d9, #00b6dc, #009def, #0080fe, #005bff, #0913e7);
+    /*background: url("https://cdn.hipwallpaper.com/i/88/31/wSXZa6.jpg") center / cover no-repeat;*/
     
     font-family: 'Source Sans Pro', sans-serif;
 }
 #lap{
     width: 70%;
     height: 100%;
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: rgba(255, 255, 255, 0.5);
     margin-left: 15%;
     margin-top: 2%;
 }
