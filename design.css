@@ -1,3 +1,4 @@
+/*whole body*/
 body{
     background-image: linear-gradient(to bottom, #001c6d, #002b6f, #00366b, #003e64, #00455b, #004957, #004c50, #004e48, #004f3f, #005031, #00501f, #004f03);
     /*background: url("https://cdn.hipwallpaper.com/i/88/31/wSXZa6.jpg") center / cover no-repeat;*/
@@ -13,7 +14,7 @@ body{
     border: 5px solid rgb(16, 58, 58);
 
 }
-
+/*menu menu*/
 @font-face {
     font-family: 'Source Sans Pro';
     font-style: normal;
@@ -94,4 +95,51 @@ body{
   h1{
     text-align: center;
   }
-  
+  body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+/*registration*/
+.input-container {
+  display: -ms-flexbox; 
+  display: flex;
+  width: 100%;
+  margin-bottom: 15px;
+}
+.icon {
+  padding: 10px;
+  background: rgb(0, 0, 0);
+  color: white;
+  min-width: 50px;
+  text-align: center;
+}
+
+.input-field {
+  width: 100%;
+  padding: 10px;
+  outline: none;
+}
+
+.input-field:focus {
+  border: 2px solid dodgerblue;
+}
+
+.registration{
+  position: center;
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 4%;
+
+}
+.regbttn {
+  background-color: rgb(0, 0, 0);
+  color: white;
+  padding: 15px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 1;
+}
+
+.regbttn:hover {
+  opacity: 1;
+}
