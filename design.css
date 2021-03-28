@@ -1,6 +1,6 @@
 body{
     background-color:darkslategray;
-    background-image: linear-gradient(to bottom, #46094f, #371c59, #26285f, #133060, #00375f, #003761, #003764, #003766, #002f6d, #002672, #001a75, #000574);
+    background-image: linear-gradient(to bottom, #001c6d, #002b6f, #00366b, #003e64, #00455b, #004957, #004c50, #004e48, #004f3f, #005031, #00501f, #004f03);
     /*background: url("https://cdn.hipwallpaper.com/i/88/31/wSXZa6.jpg") center / cover no-repeat;*/
     
     font-family: 'Source Sans Pro', sans-serif;
@@ -8,10 +8,11 @@ body{
 #lap{
     width: 70%;
     height: 100%;
-    background-color: rgba(255, 255, 255, 0.9);
+    background-color: rgba(179, 179, 175, 0.698);
     margin-left: 15%;
     margin-top: 2%;
-    border: 5px solid rgb(11, 6, 83);
+    border: 5px solid rgb(16, 58, 58);
+
 }
 
 @font-face {
@@ -77,6 +78,9 @@ body{
   }
   nav ul li:nth-child(5n) a {
     background-color: #552382;
+  }
+  nav ul li:nth-child(6n) a {
+    background-color:crimson;
   }
   nav .dot {
     background-color: red;
