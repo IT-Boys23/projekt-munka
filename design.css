@@ -1,5 +1,4 @@
 body{
-    background-color:darkslategray;
     background-image: linear-gradient(to bottom, #001c6d, #002b6f, #00366b, #003e64, #00455b, #004957, #004c50, #004e48, #004f3f, #005031, #00501f, #004f03);
     /*background: url("https://cdn.hipwallpaper.com/i/88/31/wSXZa6.jpg") center / cover no-repeat;*/
     
@@ -91,5 +90,8 @@ body{
     left: 0;
     border-radius: 50%;
     transition-duration: 0.5s;
+  }
+  h1{
+    text-align: center;
   }
   
