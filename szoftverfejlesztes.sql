@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Gép: 127.0.0.1:3306
--- Létrehozás ideje: 2021. Már 21. 14:07
+-- Létrehozás ideje: 2021. Már 28. 13:16
 -- Kiszolgáló verziója: 5.7.31
 -- PHP verzió: 7.3.21
 
@@ -44,10 +44,11 @@ CREATE TABLE IF NOT EXISTS `felhasznalok` (
 
 DROP TABLE IF EXISTS `orarend`;
 CREATE TABLE IF NOT EXISTS `orarend` (
-  `nap` varchar(15) COLLATE utf8mb4_hungarian_ci NOT NULL,
-  `oranev` varchar(50) COLLATE utf8mb4_hungarian_ci NOT NULL,
-  `kezdoido` time(6) NOT NULL,
-  `epulet` text COLLATE utf8mb4_hungarian_ci NOT NULL
+  `kezd` datetime NOT NULL,
+  `bef` datetime NOT NULL,
+  `ossz` varchar(100) COLLATE utf8mb4_hungarian_ci NOT NULL,
+  `hely` varchar(20) COLLATE utf8mb4_hungarian_ci NOT NULL,
+  `leir` varchar(50) COLLATE utf8mb4_hungarian_ci NOT NULL
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_hungarian_ci;
 COMMIT;
 
