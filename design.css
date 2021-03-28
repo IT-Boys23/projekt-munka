@@ -1,6 +1,6 @@
 body{
     background-color:darkslategray;
-    background-image: linear-gradient(to right top, #60005c, #502972, #3c3f81, #2a5088, #245e89, #1c5d88, #115c86, #005b85, #004c84, #003b80, #002978, #18116b);
+    background-image: linear-gradient(to bottom, #46094f, #371c59, #26285f, #133060, #00375f, #003761, #003764, #003766, #002f6d, #002672, #001a75, #000574);
     /*background: url("https://cdn.hipwallpaper.com/i/88/31/wSXZa6.jpg") center / cover no-repeat;*/
     
     font-family: 'Source Sans Pro', sans-serif;
@@ -8,7 +8,7 @@ body{
 #lap{
     width: 70%;
     height: 100%;
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: rgba(255, 255, 255, 0.9);
     margin-left: 15%;
     margin-top: 2%;
     border: 5px solid rgb(11, 6, 83);
