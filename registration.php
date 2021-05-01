@@ -2,7 +2,7 @@
     include "connection.php";
     $nev = $_POST['name'];
     $becenev = $_POST['nick'];
-    $neptun = $_POST['neotun'];
+    $neptun = $_POST['neptun'];
     $jelszo = $_POST['psw'];
 
     $sql = "INSERT INTO szemelyek VALUES('$nev','$becenev','$neptun','$jelszo')";
