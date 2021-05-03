@@ -1,10 +1,33 @@
 <html>
 
+<head>
+    <title>UNI</title>
+    <meta charset="UTF-8">
+    <link href="design.css" rel="stylesheet" type="text/css">
+    <script src="menu.js"></script>
+    <img src="log.png" width="750">
+    <nav>
+        <div class="dot"></div>
+        <ul>
+            <li class="active"><a href="index.html">Kezdőlap</a></li>
+            <li><a href="Epuletek.html">Épületek</a></li>
+            <li><a href="Nev.html">Nevezetességek</a></li>
+            <li><a href="reg.html">Regisztráció</a></li>
+            <li><a href="belep.html">Belépés</a></li>
+            <li><a href="Orarend.html">Órarend</a></li>
+
+        </ul>
+    </nav>
+
+</head>
+
 <body>
 
+    <div id="lap">
         <h1>Regisztráció</h1>
+        
         </br>
-        <form class="registration" method="POST">
+        <form action="registration.php" class="registration" method="POST">
             <h3>Név:</h3>
             <div class="input-container">
                 <i class="icon"></i>
@@ -33,19 +56,17 @@
 
                 <i class="icon"></i>
 
-                <input class="input-field" type="password" placeholder="Jelszó megerősítése" name="pswag">
+                <input class="input-field" type="password" placeholder="Jelészó megerősítése" name="pswag">
             </div>
 
-            <button type="submit" class="bttn" name="reg">Regisztráció</button>
+            <button type="submit" class="bttn">Regisztráció</button>
         </form>
+    </div>
 
 </body>
 
-</html>
 
-<?php
-	if(isset($_POST["reg"]))
-	{
-		include_once("registration.php");
-	}
-?>
+
+
+
+</html>

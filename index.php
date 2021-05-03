@@ -9,9 +9,9 @@
     <nav>
         <div class="dot"></div>
         <ul>
-            <li class="active"><a href="index.html">Kezdőlap</a></li>
+            <li><a href="index.php?oldal=main">Kezdőlap</a></li>
             <li><a href="index.php?oldal=Epuletek">Épületek</a></li>
-            <li><a href="index.php?oldal=nevezetessegek">Nevezetességek</a></li>
+            <li><a href="index.php?oldal=Nev">Nevezetességek</a></li>
             <li><a href="index.php?oldal=reg">Regisztráció</a></li>
             <li><a href="index.php?oldal=belep">Belépés</a></li>
             <li><a href="index.php?oldal=Orarend">Órarend</a></li>

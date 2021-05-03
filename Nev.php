@@ -1,10 +1,7 @@
 <html>
 
-
-
 <body>
 
-    
         <h1>Nevezetességek</h1>
 
             <div class="gallery">
@@ -28,6 +25,9 @@
                 <div class="desc"> Az 1956 emlékére készült bronz örökmécses Raffay Béla munkája, és a "B" épület falát ékesíti.</div>
             </div>
         
+
+
+
 
 </body>
 

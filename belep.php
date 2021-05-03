@@ -1,8 +1,6 @@
 <html>
 
-
 <body>
-
 
         <h1>Belépés</h1>
         belép

@@ -7,10 +7,11 @@ body{
 }
 #lap{
     width: 70%;
-    height: 300%;
     background-color: rgba(179, 179, 175, 0.698);
     margin-left: 15%;
     margin-top: 2%;
+	margin-bottom: 2%;
+	padding-bottom: 2%;
     border: 5px solid rgb(16, 58, 58);
 
 }

@@ -1,9 +1,7 @@
 <html>
 
 
-
 <body>
-
 
         <h1>Épületek </h1>
         <img src="mik.png" width="70%">
