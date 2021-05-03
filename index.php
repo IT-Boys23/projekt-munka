@@ -1,0 +1,45 @@
+<html>
+
+<head>
+    <title>UNI</title>
+    <meta charset="UTF-8">
+    <link href="design.css" rel="stylesheet" type="text/css">
+    <script src="menu.js"></script>
+    <img src="log.png" width="750">
+    <nav>
+        <div class="dot"></div>
+        <ul>
+            <li class="active"><a href="index.html">Kezdőlap</a></li>
+            <li><a href="index.php?oldal=Epuletek">Épületek</a></li>
+            <li><a href="index.php?oldal=nevezetessegek">Nevezetességek</a></li>
+            <li><a href="index.php?oldal=reg">Regisztráció</a></li>
+            <li><a href="index.php?oldal=belep">Belépés</a></li>
+            <li><a href="index.php?oldal=Orarend">Órarend</a></li>
+
+
+        </ul>
+    </nav>
+
+</head>
+
+<body>
+
+    <div id="lap">
+    <?php
+			if(isset($_GET["oldal"]))
+			{
+				$o = $_GET["oldal"];
+				$o .= ".php";
+				include($o);
+			}
+			else
+				include("main.php");
+			?>
+    </div>
+
+</body>
+
+
+
+
+</html>

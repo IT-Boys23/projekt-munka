@@ -1,0 +1,1 @@
+<h1>Üdvözöljük vadászfelszerelés webáruházunkban!</h1>
