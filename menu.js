@@ -1,4 +1,4 @@
-var activeOffset = $("nav ul .active").position().left;
+var activeOffset = $("nav.ul.active").position().left;
 var activeItemWidth = $("nav ul .active").width();
 
 nav("document").ready(function () {
