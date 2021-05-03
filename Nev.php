@@ -1,29 +1,10 @@
 <html>
 
-<head>
-    <title>UNI</title>
-    <meta charset="UTF-8">
-    <link href="design.css" rel="stylesheet" type="text/css">
-    <script src="menu.js"></script>
-    <img src="log.png" width="750">
-    <nav>
-        <div class="dot"></div>
-        <ul>
-            <li class="active"><a href="index.html">Kezdőlap</a></li>
-            <li><a href="Epuletek.html">Épületek</a></li>
-            <li><a href="Nev.html">Nevezetességek</a></li>
-            <li><a href="reg.html">Regisztráció</a></li>
-            <li><a href="belep.html">Belépés</a></li>
-            <li><a href="Orarend.html">Órarend</a></li>
 
-        </ul>
-    </nav>
-
-</head>
 
 <body>
 
-    <div id="lap">
+    
         <h1>Nevezetességek</h1>
 
             <div class="gallery">
@@ -47,10 +28,6 @@
                 <div class="desc"> Az 1956 emlékére készült bronz örökmécses Raffay Béla munkája, és a "B" épület falát ékesíti.</div>
             </div>
         
-
-
-
-    </div>
 
 </body>
 
