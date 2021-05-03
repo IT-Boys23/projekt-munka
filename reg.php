@@ -1,16 +1,13 @@
 <html>
-
 <body>
-
-        <h1>Regisztráció</h1>
-        </br>
-        <form class="registration" method="POST">
-            <h3>Név:</h3>
-            <div class="input-container">
-                <i class="icon"></i>
-                <input class="input-field" type="text" placeholder="Név" name="name">
-            </div>
-
+    <h1>Regisztráció</h1>
+    </br>
+    <form class="registration" method="POST">
+        <h3>Név:</h3>
+        <div class="input-container">
+            <i class="icon"></i>
+            <input class="input-field" type="text" placeholder="Név" name="name">
+        </div>
             <h3>Becenév:</h3>
             <div class="input-container">
                 <i class="icon"></i>

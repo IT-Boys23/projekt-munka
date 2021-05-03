@@ -15,8 +15,6 @@
             <li><a href="index.php?oldal=reg">Regisztráció</a></li>
             <li><a href="index.php?oldal=belep">Belépés</a></li>
             <li><a href="index.php?oldal=Orarend">Órarend</a></li>
-
-
         </ul>
     </nav>
 
