@@ -5,12 +5,13 @@
     $neptun = $_POST['neptun'];
     $jelszo = $_POST['psw'];
 
-    $sql = "INSERT INTO szemelyek(`nev`,`becenev`,`neptunkod`,`jelszo`) VALUES('$nev','$becenev','$neptun','$jelszo')";
+    $sql = "INSERT INTO felhasznalok VALUES('$nev','$becenev','$neptun','$jelszo')";
     mysqli_set_charset($conn,"utf8");
     if($conn->query($sql)===true){
         echo "Sikeres regisztráció! <br> ";
     }else{
         echo "Sikertelen regisztráció!";
+        echo "Error: " . $sql . "<br>" . $conn->error;
     }
     $conn->close();
 ?>
