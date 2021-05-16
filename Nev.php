@@ -1,5 +1,5 @@
 <html>
-
+<body>
         <h1>Nevezetességek</h1>
 
             <div class="gallery">
@@ -25,6 +25,6 @@
         
 
 
-
+</body>
 
 </html>
