@@ -17,7 +17,7 @@
             <h3>Neptun kód:</h3>
             <div class="input-container">
                 <i class="icon"></i>
-                <input class="input-field" type="password" placeholder="Neptun kód" name="neptun">
+                <input class="input-field" type="text" placeholder="Neptun kód" name="neptun">
             </div>
             <h3>Jelszó:</h3>
             <div class="input-container">

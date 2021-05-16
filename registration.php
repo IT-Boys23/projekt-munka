@@ -8,14 +8,12 @@
 
 	$sql = "SELECT 'neptunkod' FROM felhasznalok WHERE neptunkod = '$neptun'";
 	$kodhossz = strlen($neptun);
-	//$vane = mysqli_num_rows($sql);
+	$vane = mysqli_num_rows($sql);
 
-	$stmt = $db->query($sql);  
-	$row_count = $stmt->rowCount();  
 
     mysqli_set_charset($conn, "utf8");
 	
-	if($row_count == 0 && $kodhossz == 6 && $jelszo == $jelszo2){
+	if($vane == false && $kodhossz == 6 && $jelszo == $jelszo2){
 		mysqli_query($conn, "INSERT INTO felhasznalok VALUES('$nev','$becenev','$neptun','$jelszo')");
 		echo "Sikeres regisztráció!";
 	}
@@ -23,7 +21,7 @@
 		echo "A neptunkód nem megfelelő!";
 	else if($jelszo != $jelszo2)
 		echo "A két jelszó nem egyezik!";
-	else if($vane > 0)
+	else if($vane == true)
 		echo "Ez a felhasználó már létezik!";
 	
     $conn->close();

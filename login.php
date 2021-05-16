@@ -4,11 +4,8 @@
 		$pw = $_POST["password"];
 		
 		$sql = mysqli_query($conn, "SELECT * FROM felhasznalok WHERE neptunkod = '$nc' AND jelszo = '$pw'");
-		//$vane = mysqli_num_rows($sql);
+		$vane = mysqli_num_rows($sql);
 
-		$stmt = $db->query($sql);  
-		$row_count = $stmt->rowCount();  
-		
         mysqli_set_charset($conn, "utf8");
 		
 		if($vane == 1)
