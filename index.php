@@ -33,11 +33,10 @@
 			else
 				include("main.php");
 			?>
+
+
     </div>
-
+    
 </body>
-
-
-
 
 </html>

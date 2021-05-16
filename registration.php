@@ -10,7 +10,6 @@
 	$kodhossz = strlen($neptun);
 	$vane = mysqli_num_rows($sql);
 
-
     mysqli_set_charset($conn, "utf8");
 	
 	if($vane == false && $kodhossz == 6 && $jelszo == $jelszo2){
@@ -25,4 +24,4 @@
 		echo "Ez a felhasználó már létezik!";
 	
     $conn->close();
-?>
+?> 
