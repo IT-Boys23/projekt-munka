@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <link href="design.css" rel="stylesheet" type="text/css">
     <script src="menu.js"></script>
-    <img src="log.png" width="750">
+    <img src="Images/log.png" width="750">
     <nav>
         <div class="dot"></div>
         <ul>
