@@ -2,13 +2,27 @@
 
 <body>
 
-    <h1>Épületek </h1>
+    <h1>Egyetemi épületek </h1>
+    <h2>Kollégiumok </h2> 
+    <p></p>
+    <p>Központi Kollégium </p> 
+    <div class="post-content">
+	<p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d695471.524676649!2d17.34925986562499!3d47.085627899999984!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47699a6d0388e1d7%3A0x123c0ebbd13e03a5!2sPannon%20Egyetem%20K%C3%B6zponti%20Koll%C3%A9gium!5e0!3m2!1shu!2shu!4v1621184011107!5m2!1shu!2shu" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe></p>
+    </div>
+    <p>Központi Kollégium </p> 
+    <div class="post-content">
+	<p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d174136.9861114401!2d17.850786287715714!3d47.00312478196659!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47699a6a6a41f3b7%3A0xa58806c9b682696c!2sHostel%20Magister!5e0!3m2!1shu!2shu!4v1621184971056!5m2!1shu!2shu" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe></p>
+    </div>
+
+
+
+    <h1> Épületek </h1>
+
     <img src="Images/mik.png" width="70%">
     <div class="post-content">
 	<p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2716.488845370345!2d17.90581991525223!3d47.089486631549796!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47699a693492be33%3A0xb041338ca1ff6cf9!2sM%C5%B1szaki%20Informatikai%20Kar!5e0!3m2!1shu!2shu!4v1617723004615!5m2!1shu!2shu" ></iframe></iframe></p>
     </div>
     <img src="Images/mikv.png" width="90%">
-
 
     <img src="Images/gtk.png" width="70%">
     <div class="post-content">
