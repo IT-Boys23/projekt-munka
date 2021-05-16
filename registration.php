@@ -8,10 +8,14 @@
 
 	$sql = "SELECT 'neptunkod' FROM felhasznalok WHERE neptunkod = '$neptun'";
 	$kodhossz = strlen($neptun);
-	$vane = mysqli_num_rows($sql);
+	//$vane = mysqli_num_rows($sql);
+
+	$stmt = $db->query($sql);  
+	$row_count = $stmt->rowCount();  
+
     mysqli_set_charset($conn, "utf8");
 	
-	if($vane == 0 && $kodhossz == 6 && $jelszo == $jelszo2){
+	if($row_count == 0 && $kodhossz == 6 && $jelszo == $jelszo2){
 		mysqli_query($conn, "INSERT INTO felhasznalok VALUES('$nev','$becenev','$neptun','$jelszo')");
 		echo "Sikeres regisztráció!";
 	}
