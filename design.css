@@ -6,7 +6,7 @@ body{
     font-family: 'Source Sans Pro', sans-serif;
 }
 #lap{
-    width: 70%;
+    width: 75%;
     background-color: rgba(228, 228, 228, 0.74);
     margin-left: 15%;
     margin-top: 2%;
@@ -172,20 +172,10 @@ iframe {
 .regbttn:hover {
   opacity: 1;
 }
-div.gallery {
-  margin: 5px;
-  border: 1px solid #ccc;
-  float: left;
-  width: 100%;
+/*nevezetességek*/
+.nevezetessegek{
+
 }
 
-div.gallery:hover {
-  border: 1px solid #777;
-}
-
-div.gallery img {
-  width: auto;
-  height: auto;
-}
 /*footer*/
 
