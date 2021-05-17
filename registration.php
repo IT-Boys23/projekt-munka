@@ -9,8 +9,7 @@
 	$vane = mysqli_num_rows($sql);
 	$kodhossz = strlen($neptun);
 	//jelszó titkosítás
-	$salt = base64_encode(mcrypt_create_iv(24, MCRYPT_DEV_URANDOM)); 
-	$hash = hash_hmac("sha256", $salt, $jelszo);
+	
 	
 	if($vane == 0 && $kodhossz == 6 && $jelszo == $jelszo2){
 		mysqli_query($conn, "INSERT INTO felhasznalok VALUES('$nev','$becenev','$neptun','$hash')");
