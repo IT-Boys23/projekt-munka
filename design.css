@@ -6,22 +6,22 @@ body{
     font-family: 'Source Sans Pro', sans-serif;
 }
 #lap{
-    width: 75%;
     background-color: rgba(228, 228, 228, 0.74);
-    padding: 12,5%;
-    margin-top: 2%;
-	  margin-bottom: 2%;
-	  padding-bottom: 2%;
-    border: 5px solid rgb(16, 58, 58);
+    border: 5px solid white;
+    width: 75%;
+    margin-left: 12.5%;
+    margin-top: 0.5%;
+    margin-bottom: 5%;
+    padding-bottom:5%;
 
 }
 h1{
   text-align: center;
   font-family: 'Times New Roman';
-  padding: 40px;
+  padding-top: 3%;
 
 }
-h2{
+h2,h3{
   font-family: 'Times New Roman';
   padding-left: 20px;
 }
@@ -181,5 +181,28 @@ iframe {
     text-align: center;
 }
 
-/*footer*/
+.not{
+  margin-left: 12.5%;
+  margin-top: 3%;
+  padding:1.5%;
+  font-family: 'Times New Roman';
+  color: white;
+  border: 5px solid rgb(223, 255, 255);
+  width: 75%;
+  text-align: center;
+  font-size: 35px;
+}
 
+.pictures{
+  width: 350px;
+  height: auto;
+  transition: all 0.5s;
+
+}
+.pictures:hover{
+
+  width: 250px;
+  border: 2px solid black;
+  box-shadow: 0px 0px 10px black;
+}
+}

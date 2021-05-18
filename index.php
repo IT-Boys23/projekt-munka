@@ -30,13 +30,14 @@
 		?>
         </ul>
     </nav>
-	<?php 
-		if(isset($_SESSION["id"]))
-			print "Felhasználó: " . $_SESSION["id"];
-	?>
+	
 </head>
 
 <body>
+	<?php 
+		if(isset($_SESSION["id"]))
+			print "<div class='not'>Üdvözlünk: " . $_SESSION["id"]."</div>";
+	?>
     <div id="lap">
     <?php
 			if(isset($_GET["oldal"]))
