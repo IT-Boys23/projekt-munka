@@ -19,17 +19,17 @@
 	
 	if($nevhossz > 0 && $vane == 0 && $kodhossz == 6 && $jelszo == $jelszo2 && $jelszohossz>=8 && $jelszohossz<=16){
 		mysqli_query($conn, "INSERT INTO felhasznalok VALUES('$nev','$becenev','$neptunfel','$titkositott')");
-		echo "Sikeres regisztráció!";
+		print " <div class='not'>Sikeres regisztráció! </div>";
 	}
 	else if($nevhossz == 0)
-		echo "Kérlek add meg a neved!";
+		print "<div class='not'>Kérlek add meg a neved! </div>";
 	else if($kodhossz != 6)
-		echo "A neptunkód nem megfelelő!";
+		print "<div class='not'>A neptunkód nem megfelelő! </div>";
 	else if($jelszo != $jelszo2)
-		echo "A két jelszó nem egyezik!";
+		print "<div class='not'>A két jelszó nem egyezik! </div>";
 	else if($vane > 0)
-		echo "Ez a felhasználó már létezik!";
+		print "<div class='not'>Ez a felhasználó már létezik! </div>";
 	else if($jelszohossz<8 || $jelszohossz>16)
-		echo "A jelszó 8 és 16 karakter között legyen!";
+		print "<div class='not'>A jelszó 8 és 16 karakter között legyen!</div>";
 	
 ?>
