@@ -1,8 +1,8 @@
 <?php
 $servername = "localhost";
-$username = "root";
-$password = "";
-$dbname = "szoftverfejlesztes";
+$username = "szoft";
+$password = "pokerarc1999asD@@";
+$dbname = "szoft";
 // Kapcsolat létrehozása
 $conn = new mysqli($servername, $username, $password, $dbname);
 // Kapcsolat ellenőrzése

@@ -1,14 +1,15 @@
 <?php
 		$nc = $_POST['neptuncode'];
 		$pw = $_POST['password'];
+
+		$titkositott = md5($pw,false);
+		$ncfel = strtoupper($nc);
 		
-		$sql = mysqli_query($conn, "SELECT * FROM felhasznalok WHERE neptunkod = '$nc' AND jelszo = '$pw'");
+		$sql = mysqli_query($conn, "SELECT * FROM felhasznalok WHERE neptunkod = '$ncfel' AND jelszo = '$titkositott'");
 		$vane = mysqli_num_rows($sql);
 
 		//ellenörzés
 	
-
-
 		if($vane == 1)
 		{
 			$_SESSION["id"] = $nc;
