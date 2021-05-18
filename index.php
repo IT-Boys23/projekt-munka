@@ -32,7 +32,7 @@
     </nav>
 	<?php 
 		if(isset($_SESSION["id"]))
-			print "Üdvözöljük " . $_SESSION["id"];
+			print "Felhasználó: " . $_SESSION["id"];
 	?>
 </head>
 

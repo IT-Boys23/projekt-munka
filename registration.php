@@ -11,18 +11,15 @@
 	$kodhossz = strlen($neptun);
 	$jelszohossz = strlen($jelszo);
 
-
 	//jelszó titkosítás
 	$titkositott = md5($jelszo);
 	$neptunfel = strtoupper($neptun);
-	
-
-
+	/*$hossz2 = strlen($titkositott);
+	print "$hossz2";*/
 	
 	if($nevhossz > 0 && $vane == 0 && $kodhossz == 6 && $jelszo == $jelszo2 && $jelszohossz>=8 && $jelszohossz<=16){
 		mysqli_query($conn, "INSERT INTO felhasznalok VALUES('$nev','$becenev','$neptunfel','$titkositott')");
-		echo "Sikeres regisztráció!"
-
+		echo "Sikeres regisztráció!";
 	}
 	else if($nevhossz == 0)
 		echo "Kérlek add meg a neved!";
