@@ -8,7 +8,6 @@
 		$sql = mysqli_query($conn, "SELECT * FROM felhasznalok WHERE neptunkod = '$ncfel' AND jelszo = '$titkositott'");
 		$becenev = mysqli_query($conn, "SELECT becenev FROM felhasznalok WHERE neptunkod = '$ncfel' AND jelszo = '$titkositott'");
 		$vane = mysqli_num_rows($sql);
-		//print "$becenev";
 		
 		//ellenörzés
 	
@@ -18,5 +17,5 @@
 			header("Location:?oldal=main");
 		}
 		else
-			print "Sikertelen bejelentkezés!";
+			print "Hibás neptunkód vagy jelszó!";
 ?>
