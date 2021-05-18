@@ -15,13 +15,7 @@
 	//jelszó titkosítás
 	$titkositott = md5($jelszo);
 	$neptunfel = strtoupper($neptun);
-	/*
-	$str1 ="alma";
-	$str2 ="sajtoskenyer";
-	$str3 ="kutya";
-	echo md5($str1)."|||||||||||"; 
-	echo md5($str2)."|||||||||||";
-	echo md5($str3)."|||||||||||";*/
+	
 
 
 	
