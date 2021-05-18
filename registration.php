@@ -16,7 +16,6 @@
 	$titkositott = md5($password,false);
 	$neptunfel = strtoupper($neptun);
 
-	print"A titkosított jelszó: ".$titkositott;
 
 	
 	if($nevhossz > 0 && $vane == 0 && $kodhossz == 6 && $jelszo == $jelszo2 && $jelszohossz>=8 && $jelszohossz<=16){
