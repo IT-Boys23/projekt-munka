@@ -13,24 +13,21 @@
 
 
 	//jelszó titkosítás
-	$titkositott = md5($password,false);
+	$titkositott = md5($jelszo);
 	$neptunfel = strtoupper($neptun);
+	/*
+	$str1 ="alma";
+	$str2 ="sajtoskenyer";
+	$str3 ="kutya";
+	echo md5($str1)."|||||||||||"; 
+	echo md5($str2)."|||||||||||";
+	echo md5($str3)."|||||||||||";*/
 
 
 	
 	if($nevhossz > 0 && $vane == 0 && $kodhossz == 6 && $jelszo == $jelszo2 && $jelszohossz>=8 && $jelszohossz<=16){
 		mysqli_query($conn, "INSERT INTO felhasznalok VALUES('$nev','$becenev','$neptunfel','$titkositott')");
-		echo "Sikeres regisztráció!";
-		unset ($nev);
-		unset ($becenev);
-		unset ($neptun);
-		unset ($jelszo);
-		unset ($jelszo2);
-		unset ($nevhossz);
-		unset ($kodhossz);
-		unset ($jelszohossz);
-		unset ($titkositott);
-		unset ($neptunfel);
+		echo "Sikeres regisztráció!"
 
 	}
 	else if($nevhossz == 0)

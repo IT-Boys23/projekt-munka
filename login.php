@@ -2,7 +2,7 @@
 		$nc = $_POST['neptuncode'];
 		$pw = $_POST['password'];
 
-		$titkositott = md5($pw,false);
+		$titkositott = md5($pw,true);
 		$ncfel = strtoupper($nc);
 		
 		$sql = mysqli_query($conn, "SELECT * FROM felhasznalok WHERE neptunkod = '$ncfel' AND jelszo = '$titkositott'");
