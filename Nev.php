@@ -37,7 +37,7 @@
     <p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2716.1986215447073!2d17.90345551534798!3d47.09517677915415!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47699a678fe678af%3A0xeb273ced41ad2c32!2zVmVzenByw6ltLCBIxZFzw7ZrIGthcHVqYSwgVsOhciB1LiAyLCA4MjAw!5e0!3m2!1shu!2shu!4v1621180278840!5m2!1shu!2shu"></iframe></p>
   </div>
 
-  <div class="nevezetessegek"><img src="Images/ovaros.jpg." width="350" height="auto"  >
+  <div class="nevezetessegek"><img src="Images/ovaros.jpg" width="350" height="auto"  >
       Óváros tér: Ez a hely város szíve. Korábban piactérként használták, mára a legnépszerűbb fesztiválok egyik állandó helyszíne.
       <p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2716.252734379652!2d17.90465841534785!3d47.094115879154046!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47699a67c8b69135%3A0xe4698fd7e88ae788!2zw5N2w6Fyb3MgVMOpcg!5e0!3m2!1shu!2shu!4v1621180333663!5m2!1shu!2shu" ></iframe></p>
     </div>

@@ -1,7 +1,7 @@
 <html>
 
 <head>
-    <title>UNI</title>
+    <title>United Unies</title>
     <meta charset="UTF-8">
     <link href="design.css" rel="stylesheet" type="text/css">
     <script src="menu.js"></script>
