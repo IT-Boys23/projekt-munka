@@ -1,14 +1,14 @@
 <html>
-<syle>
+<style>
     #kep{
-    width: 200px;
+    width: 400px;
     transition: all 0.5s;
     }
 
     #kep:hover{
-    width: 250px;
-    border: 2px solid black;
-    box-shadow: 0px 0px 10px black;
+    width: 550px;
+    border: 2px white black;
+    box-shadow: 0px 0px 10px grey;
     }
 </style>
 <body>
@@ -17,12 +17,12 @@
     <h2>Kollégiumok </h2> 
     <p></p>
     <p>Központi Kollégium </p> 
-    <img class="kep" src="Images/kk.jpg" >
+    <img id="kep" src="Images/kk.jpg" >
     <div class="post-content">
 	<p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d695471.524676649!2d17.34925986562499!3d47.085627899999984!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47699a6d0388e1d7%3A0x123c0ebbd13e03a5!2sPannon%20Egyetem%20K%C3%B6zponti%20Koll%C3%A9gium!5e0!3m2!1shu!2shu!4v1621184011107!5m2!1shu!2shu" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe></p>
     </div>
     <p>Hotel Magister </p> 
-    <img class="kep"  src="Images/hm.jpg" >
+    <img id="kep"  src="Images/hm.jpg" >
     <div class="post-content">
 	<p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d174136.9861114401!2d17.850786287715714!3d47.00312478196659!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47699a6a6a41f3b7%3A0xa58806c9b682696c!2sHostel%20Magister!5e0!3m2!1shu!2shu!4v1621184971056!5m2!1shu!2shu" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe></p>
     </div>
