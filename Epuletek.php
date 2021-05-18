@@ -1,4 +1,5 @@
 <html>
+<<<<<<< Updated upstream
 	
 <style>
 .kep{
@@ -13,6 +14,12 @@
 }
 </style>
 
+=======
+    <style>
+        
+    </style>
+<link href="design.css" rel="stylesheet" type="text/css">
+>>>>>>> Stashed changes
 <body>
 
     <h1>Egyetemi épületek </h1>

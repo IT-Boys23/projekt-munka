@@ -193,13 +193,3 @@ iframe {
   font-size: 35px;
 }
 
-.pictures{
-  width: 350px;
-  height: auto;
-  transition: trasnform .2s;
-
-}
-.pictures:hover{
-
-  transform:scale(1.5);
-}

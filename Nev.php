@@ -1,4 +1,7 @@
 <html>
+  <style>
+        
+  </style>
 <body>
     <h1>Látnivalók</h1>
 
