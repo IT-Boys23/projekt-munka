@@ -1,10 +1,10 @@
 # Projektmunka
-Projekt leírása
+# Projekt leírása
 Projektcél megfogalmazása
 Olyan felületet szeretnénk létrehozni, amely a Pannon Egyetem hallgatói számára segítséget biztosít az egyetemi épületek közötti eligazodásban, valamint megtekinthetik, hogy éppen hol tartózkodnak hallgatótársaik. 
 
 Egy regisztrációhoz kötött multiplatform oldal tervezése, majd kivitelezése a Pannon Egyetemen tanuló diákok számára. Az egyetem épületeinek, nevezetességeinek megjelenítése, valamint egyértelmű jelölése a térképen segítséget biztosít a tájékozódásban. Kiegészítésként feltölthetik majd a hallgatók az órarendjüket is.
-![image](https://user-images.githubusercontent.com/79209121/118788804-6f7bff80-b894-11eb-8391-b873f7efe346.png)
+                     ![image](https://user-images.githubusercontent.com/79209121/118788804-6f7bff80-b894-11eb-8391-b873f7efe346.png)
 
 
 A terv szerint a rendszer weboldalon működik majd, így minden platformról, eszközről elérhető lesz. Két típusú felhasználói módban lehet majd használni:
@@ -33,9 +33,5 @@ Nem funkcionális követelmények
 -	Folyamatos nyomkövetés
 -	Felhasználó adatainak mentése
  
-
-
-
-
 Összegzés 
 Az utóbbi időben több helymeghatározó applikáció is megjelent a piacon, illetve a social media felületei is biztosítják a barátaink, ismerőseink helyének meghatározását térképen. A mi célunk egy hasonló, helymeghatározó platform készítése kifejezetten a Pannon Egyetem hallgatói (vagy az egyetem által engedélyezett) számára. Az oldal segít a tájékozódásban, a diákok helyének meghatározásában és az órarend megtekintését leegyszerüsíti.
